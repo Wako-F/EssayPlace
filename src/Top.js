@@ -6,15 +6,15 @@ export default function Top() {
     <nav className="nav-bar">
       <div className="container pt-3">
         <div className="row">
-          <a className="navbar-brand col-6" href="#">
+          <a className="navbar-brand  col-4" href="#">
             {" "}
-            <img src="../logo.png" width="100" height="80" />
+            <img src={logo} width="100" height="100" />
           </a>
 
-          <span className="col">About Us </span>
+          <span className="col nav-item">About Us </span>
 
-          <span className="col">Pricing </span>
-          <span className="col">Hire a writer </span>
+          <span className="col nav-item">Pricing </span>
+          <span className="col nav-item">Hire a writer </span>
           <span className="col"> </span>
           <span className="col"> </span>
         </div>
