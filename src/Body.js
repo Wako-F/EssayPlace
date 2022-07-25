@@ -1,15 +1,15 @@
 import React from "react";
-
+import EssayPlaceBody from "./EssayPlaceBody.png";
 export default function Body() {
   return (
-    <div>
+    <div className="footer">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
-              src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-7c9gc2qa6iger61bbcul70her1-20201222204646.Medi.jpeg"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
+              src={EssayPlaceBody}
+              class="d-block  mx-lg-auto img-fluid"
+              alt="EssayPlace"
               width="700"
               height="500"
               loading="lazy"
@@ -42,3 +42,4 @@ export default function Body() {
     </div>
   );
 }
+export { EssayPlaceBody };

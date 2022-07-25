@@ -1,25 +1,72 @@
 import React from "react";
-import logo from "./logo.png";
 
 export default function Top() {
   return (
-    <nav className="nav-bar">
-      <div className="container pt-3">
-        <div className="row">
-          <a className="navbar-brand  col-4" href="#">
-            {" "}
-            <img src={logo} width="100" height="100" />
-          </a>
-
-          <span className="col nav-item">About Us </span>
-
-          <span className="col nav-item">Pricing </span>
-          <span className="col nav-item">Hire a writer </span>
-          <span className="col"> </span>
-          <span className="col"> </span>
+    <nav class="navbar footer sticky-top  navbar-expand-lg ">
+      <div class="container">
+        <a class=" logo navbar-brand col-6" href="#">
+          {" "}
+          EssayPlace
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav row">
+            <li class="nav-item col ">
+              <a class="nav-link active" aria-current="page" href="#">
+                Home
+              </a>
+            </li>
+            <li class="nav-item  col">
+              <a class="nav-link" href="#">
+                Features
+              </a>
+            </li>
+            <li class="nav-item col">
+              <a class="nav-link" href="#">
+                Pricing
+              </a>
+            </li>
+            <li class="nav-item dropdown col">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
   );
 }
-export { logo };
