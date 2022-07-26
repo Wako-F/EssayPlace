@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Top() {
   return (
-    <nav class="navbar footer sticky-top  navbar-expand-lg ">
-      <div class="container">
-        <a class=" logo navbar-brand col-6" href="#">
+    <nav class="navbar backgroundsvg    navbar-expand-lg ">
+      <div class="container ">
+        <a class=" logo navbar-brand fs-1 col-6" href="#">
           {" "}
           EssayPlace
         </a>
@@ -22,23 +22,27 @@ export default function Top() {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav row">
             <li class="nav-item col ">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a
+                class="nav-link fw-semibold fs-5 active"
+                aria-current="page"
+                href="#"
+              >
                 Home
               </a>
             </li>
             <li class="nav-item  col">
-              <a class="nav-link" href="#">
+              <a class="nav-link fw-semibold fs-5" href="#">
                 Features
               </a>
             </li>
             <li class="nav-item col">
-              <a class="nav-link" href="#">
+              <a class="nav-link fw-semibold fs-5" href="#">
                 Pricing
               </a>
             </li>
             <li class="nav-item dropdown col">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link fw-semibold fs-5 dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"

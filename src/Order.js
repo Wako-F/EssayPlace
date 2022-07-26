@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Order() {
   return (
-    <div>
+    <div className="backgroundorder">
       <div>
         <div className="container pt-5">
           <div className="row">
             <div className="col"></div>
-            <div className="col ">
-              <div class="card text-centered" style={{ width: 30 + "rem" }}>
+            <div className="col text-centered ">
+              <div class=" ">
                 <div class="card-body">
-                  <h5 class="card-title card-header">Place an Order</h5>
+                  <h5 class="card-title ">Place an Order</h5>
                   <form>
                     <label class="form-label form-text">Email:</label> <br />
                     <input type="email" /> <br />
@@ -57,7 +57,14 @@ export default function Order() {
                 </div>
               </div>
             </div>
-            <div className="col"></div>
+            <div className="col">
+              <p className="fw-bold fs-1 "> Quick and Efficient </p>
+              <p className="fs-5">
+                {" "}
+                Essayplace simplifies the entire process and assures clients of
+                excellent essays by linking you to the perfect writer.{" "}
+              </p>
+            </div>
           </div>
         </div>
       </div>
