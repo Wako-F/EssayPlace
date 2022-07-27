@@ -1,13 +1,12 @@
 import React from "react";
-
+import backgroundEPB from "./backgroundEPB.png";
 export default function Order() {
   return (
     <div className="backgroundorder">
       <div>
         <div className="container pt-5">
           <div className="row">
-            <div className="col"></div>
-            <div className="col text-centered ">
+            {/* <div className="col text-centered ">
               <div class=" ">
                 <div class="card-body">
                   <h5 class="card-title ">Place an Order</h5>
@@ -56,13 +55,27 @@ export default function Order() {
                   </form>
                 </div>
               </div>
+            </div> */}
+            <div className="col">
+              <img
+                src={backgroundEPB}
+                class="d-block  mx-lg-auto img-fluid"
+                alt="EssayPlace"
+                width="700"
+                height="500"
+                loading="lazy"
+              />{" "}
             </div>
             <div className="col">
-              <p className="fw-bold fs-1 "> Quick and Efficient </p>
-              <p className="fs-5">
-                {" "}
-                Essayplace simplifies the entire process and assures clients of
-                excellent essays by linking you to the perfect writer.{" "}
+              <h1 class="display-5 fw-bold lh-1 mb-3">
+                Responsive left-aligned hero with image
+              </h1>
+              <p class="lead">
+                Quickly design and customize responsive mobile-first sites with
+                Bootstrap, the world’s most popular front-end open source
+                toolkit, featuring Sass variables and mixins, responsive grid
+                system, extensive prebuilt components, and powerful JavaScript
+                plugins.
               </p>
             </div>
           </div>
@@ -71,3 +84,4 @@ export default function Order() {
     </div>
   );
 }
+export { backgroundEPB };

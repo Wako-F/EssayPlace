@@ -44,7 +44,7 @@ export default function Body() {
         <div className="row">
           {" "}
           <div className="col"> </div>{" "}
-          <div className="col-10">
+          <div className="col-8">
             <hr />{" "}
           </div>{" "}
           <div className="col"> </div>
