@@ -1,5 +1,4 @@
 import React from "react";
-import backgroundEPB from "./backgroundEPB.png";
 export default function Order() {
   return (
     <div className="backgroundorder">
@@ -57,14 +56,7 @@ export default function Order() {
               </div>
             </div> */}
             <div className="col">
-              <img
-                src={backgroundEPB}
-                class="d-block  mx-lg-auto img-fluid"
-                alt="EssayPlace"
-                width="700"
-                height="500"
-                loading="lazy"
-              />{" "}
+          
             </div>
             <div className="col">
               <h1 class="display-5 fw-bold lh-1 mb-3">
@@ -84,4 +76,3 @@ export default function Order() {
     </div>
   );
 }
-export { backgroundEPB };
