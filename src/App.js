@@ -3,13 +3,12 @@ import Top from "./Top";
 import Footer from "./Footer";
 import Body from "./Body";
 import Features from "./Features";
-import Order from "./Order";
-import Wave from "./Wave";
+// import Carousel from "./Carousel"
 export default function App() {
   return (
     <div>
       {" "}
-      <Top /> <Body /> <Order /> <Features /> <Footer />
+      <Top /> <Body /> <Features /> <Footer />
     </div>
   );
 }

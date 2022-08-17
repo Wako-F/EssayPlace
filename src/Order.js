@@ -1,4 +1,5 @@
 import React from "react";
+import bodyImage from "./bodyImage.png";
 export default function Order() {
   return (
     <div className="backgroundorder">
@@ -55,11 +56,18 @@ export default function Order() {
                 </div>
               </div>
             </div> */}
-            <div className="col">
-          
+            <div className="col-10 col-sm-8 col-lg-6">
+              <img
+                src={bodyImage}
+                class="d-block  mx-lg-auto img-fluid"
+                alt="EssayPlace"
+                width="400"
+                height="400"
+                loading="lazy"
+              />
             </div>
-            <div className="col">
-              <h1 class="display-5 fw-bold lh-1 mb-3">
+            <div className="col-lg-6">
+              <h1 class="display-5 fw-bold lh-2 mb-3">
                 Responsive left-aligned hero with image
               </h1>
               <p class="lead">

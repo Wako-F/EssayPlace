@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Top() {
   return (
-    <nav class="navbar backgroundsvg    navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg py-0">
       <div class="container ">
-        <a class=" logo navbar-brand fs-1 col-6" href="#">
+        <a class=" logo navbar-brand fs-1 text-white-50 col-6" href="#">
           {" "}
           EssayPlace
         </a>
@@ -20,53 +20,21 @@ export default function Top() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav row">
+          <ul class="navbar-nav d-flex row">
             <li class="nav-item col ">
-              <a
-                class="nav-link fw-semibold fs-5 active"
-                aria-current="page"
-                href="#"
-              >
-                Home
-              </a>
-            </li>
-            <li class="nav-item  col">
-              <a class="nav-link fw-semibold fs-5" href="#">
+              <a class="nav-link " href="#">
                 Features
               </a>
             </li>
-            <li class="nav-item col">
-              <a class="nav-link fw-semibold fs-5" href="#">
+            <li class="nav-item col ">
+              <a class="nav-link " href="#">
                 Pricing
               </a>
             </li>
-            <li class="nav-item dropdown col">
-              <a
-                class="nav-link fw-semibold fs-5 dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
+            <li class="nav-item col ">
+              <a class="nav-link " href="#">
+                Pricing
               </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
             </li>
           </ul>
         </div>

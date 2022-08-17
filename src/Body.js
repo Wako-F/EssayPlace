@@ -27,13 +27,7 @@ export default function Body() {
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                Primary
-              </button>
-              <button
-                type="button"
-                class="btn btn-outline-secondary btn-lg px-4"
-              >
-                Default
+                Order Now
               </button>
             </div>
           </div>
@@ -43,10 +37,7 @@ export default function Body() {
         {" "}
         <div className="row">
           {" "}
-          <div className="col"> </div>{" "}
-          <div className="col-8">
-            <hr />{" "}
-          </div>{" "}
+          <div className="col"> </div> <div className="col-3"> </div>{" "}
           <div className="col"> </div>
         </div>
       </div>{" "}
