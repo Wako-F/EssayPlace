@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Top() {
   return (
-    <nav class="navbar navbar-expand-lg py-0">
+    <nav class="navbar  navbar-expand-lg py-0">
       <div class="container ">
         <a class=" logo navbar-brand fs-1 text-white-50 col-6" href="#">
           {" "}
@@ -19,7 +19,10 @@ export default function Top() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div
+          class="collapse  justify-content-end navbar-collapse"
+          id="navbarNavDropdown"
+        >
           <ul class="navbar-nav d-flex row">
             <li class="nav-item col ">
               <a class="nav-link " href="#">
@@ -33,7 +36,7 @@ export default function Top() {
             </li>
             <li class="nav-item col ">
               <a class="nav-link " href="#">
-                Pricing
+                Login
               </a>
             </li>
           </ul>
